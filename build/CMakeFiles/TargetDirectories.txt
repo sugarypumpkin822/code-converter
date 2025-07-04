@@ -1,0 +1,5 @@
+C:/Users/Ryan4/Downloads/CodeTranslator/build/CMakeFiles/CodeTranslator.dir
+C:/Users/Ryan4/Downloads/CodeTranslator/build/CMakeFiles/edit_cache.dir
+C:/Users/Ryan4/Downloads/CodeTranslator/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Ryan4/Downloads/CodeTranslator/build/CMakeFiles/CodeTranslator_autogen_timestamp_deps.dir
+C:/Users/Ryan4/Downloads/CodeTranslator/build/CMakeFiles/CodeTranslator_autogen.dir
