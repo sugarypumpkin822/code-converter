@@ -1,6 +1,12 @@
-MIT License
+# MIT License
+
+**CodeTranslator - Professional Code Translation and Conversion Tool**
 
 Copyright (c) 2024 CodeTrans Inc.
+Website: https://www.codetrans.com
+Email: legal@codetrans.com
+
+## License Terms
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18,4 +24,126 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+SOFTWARE.
+
+## Additional Terms and Conditions
+
+### 1. Definitions
+
+- **"Software"** refers to the CodeTranslator application, including all source code, documentation, resources, and associated files.
+- **"Derivative Works"** means any work based upon the Software or portions thereof.
+- **"Contributors"** means CodeTrans Inc. and any individual or entity that has contributed code, documentation, or other materials to the Software.
+
+### 2. Grant of Rights
+
+Subject to the terms and conditions of this License, CodeTrans Inc. hereby grants you a worldwide, royalty-free, non-exclusive license to:
+
+- Use the Software for any purpose, including commercial applications
+- Modify the Software and create Derivative Works
+- Distribute copies of the Software
+- Distribute your modifications and Derivative Works
+- Sublicense the Software to third parties
+
+### 3. Obligations and Restrictions
+
+#### 3.1 Attribution Requirements
+- You must retain all copyright notices in any copies or distributions
+- You must include a copy of this License with any distribution
+- You must clearly identify any modifications made to the original Software
+- Credit to CodeTrans Inc. must be maintained in derivative works
+
+#### 3.2 Trademark Usage
+- This License does not grant permission to use the trade names, trademarks, service marks, or product names of CodeTrans Inc.
+- You may not use "CodeTranslator" or "CodeTrans" in the name of derivative works without explicit written permission
+
+#### 3.3 Distribution Requirements
+- Source code distributions must include all original copyright notices
+- Binary distributions must include attribution in documentation or about dialogs
+- Modified versions must be clearly marked as such and not misrepresented as the original Software
+
+### 4. Third-Party Components
+
+This Software may include third-party libraries and components, each subject to their own license terms:
+
+#### 4.1 Qt Framework
+- Licensed under LGPL v3 or GPL v3
+- Copyright (c) The Qt Company Ltd.
+- Website: https://www.qt.io/licensing/
+
+#### 4.2 Syntax Highlighting Libraries
+- Various open-source syntax highlighting components
+- Each maintaining their respective licenses and copyrights
+
+#### 4.3 Icon Libraries
+- Icons from various open-source icon sets
+- Licensed under Creative Commons or similar permissive licenses
+
+### 5. Contributions
+
+#### 5.1 Contributor Agreement
+By contributing to this project, you agree that your contributions will be licensed under the same MIT License terms.
+
+#### 5.2 Code of Conduct
+Contributors are expected to maintain professional standards and respect for all community members.
+
+#### 5.3 Submission Guidelines
+- All contributions must be original work or properly attributed
+- Contributors must have the right to submit their contributions
+- Submissions should follow the project's coding standards and guidelines
+
+### 6. Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHORS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+### 7. Limitation of Liability
+
+IN NO EVENT WILL CODETRANS INC. OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+### 8. Indemnification
+
+You agree to indemnify and hold harmless CodeTrans Inc. and its contributors from and against any claims, damages, losses, costs, and expenses (including reasonable attorney fees) arising out of or relating to your use, modification, or distribution of the Software.
+
+### 9. Export Control
+
+This Software may be subject to export control laws and regulations. You are responsible for complying with all applicable laws and regulations regarding the export, re-export, or import of the Software.
+
+### 10. Governing Law
+
+This License shall be governed by and construed in accordance with the laws of the State of Delaware, United States, without regard to its conflict of law provisions.
+
+### 11. Severability
+
+If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable, and the remainder of the License shall remain in full force and effect.
+
+### 12. Entire Agreement
+
+This License constitutes the entire agreement between the parties with respect to the Software and supersedes all prior or contemporaneous agreements, whether written or oral, relating to the subject matter hereof.
+
+## Contact Information
+
+For questions about this License or the Software:
+
+**CodeTrans Inc.**
+- Website: https://www.codetrans.com
+- Email: legal@codetrans.com
+- Support: support@codetrans.com
+- Address: 123 Innovation Drive, Suite 400, San Francisco, CA 94103
+
+## Version History
+
+- **v1.0** (2024-01-15): Initial release
+- **v1.1** (2024-03-20): Added trademark usage clarifications
+- **v1.2** (2024-06-10): Updated third-party component references
+- **v2.0** (2024-11-01): Comprehensive license update with detailed terms
+
+## Acknowledgments
+
+We thank the open-source community for their contributions and the foundations that make this Software possible:
+
+- The Qt Project for providing an excellent cross-platform framework
+- All individual contributors who have helped improve the Software
+- The broader open-source community for inspiration and collaboration
+
+---
+
+*This License was last updated on November 1, 2024. For the most current version, please visit our website at https://www.codetrans.com/license*
