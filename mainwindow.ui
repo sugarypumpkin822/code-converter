@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Code Translator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainVerticalLayout">
+    <item>
+     <widget class="QTabWidget" name="mainTabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabTranslation">
+       <attribute name="title">
+        <string>Translation</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="translationVerticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="labelSource">
+            <property name="text">
+             <string>Source Language:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="sourceLangComboBox"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelTarget">
+            <property name="text">
+             <string>Target Language:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="targetLangComboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelInput">
+          <property name="text">
+           <string>Input Code:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="inputTextEdit"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="translateButton">
+          <property name="text">
+           <string>Translate</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="labelOutput">
+          <property name="text">
+           <string>Output Code:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="outputTextEdit"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabHistory">
+       <attribute name="title">
+        <string>History</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="historyVerticalLayout">
+        <item>
+         <widget class="QListWidget" name="historyListWidget"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="clearHistoryButton">
+          <property name="text">
+           <string>Clear History</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSettings">
+       <attribute name="title">
+        <string>Settings</string>
+       </attribute>
+       <layout class="QFormLayout" name="settingsFormLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelTheme">
+          <property name="text">
+           <string>Theme:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="themeComboBox"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labelLanguage">
+          <property name="text">
+           <string>Language:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="languageComboBox"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labelPlugins">
+          <property name="text">
+           <string>Plugins:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QListWidget" name="pluginListWidget"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="labelFeedback">
+          <property name="text">
+           <string>Feedback:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="feedbackButton">
+          <property name="text">
+           <string>Send Feedback</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>Toolbar</string>
+   </property>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionClear"/>
+   <addaction name="actionFeedback"/>
+   <addaction name="actionPlugins"/>
+   <addaction name="actionHelp"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui> 
