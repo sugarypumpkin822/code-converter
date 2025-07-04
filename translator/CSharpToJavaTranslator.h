@@ -1,4 +1,4 @@
-[⚠️ Suspicious Content] #ifndef CSHARPTOJAVATRANSLATOR_H
+#ifndef CSHARPTOJAVATRANSLATOR_H
 #define CSHARPTOJAVATRANSLATOR_H
 
 #include <QString>
