@@ -1,6 +1,11 @@
-# Qt build files
+# CodeTranslator - Comprehensive .gitignore
+# This file specifies intentionally untracked files that Git should ignore
+
+# Qt-specific files and directories
 build/
+build-*/
 *.pro.user
+*.pro.user.*
 *.qmake.stash
 *.qmake.cache
 *.moc/
@@ -17,24 +22,336 @@ build/
 *.tmp
 *.bak
 *.swp
-*.DS_Store
-*.vs/
-*.vscode/
-*.idea/
-*.ipch/
+*.autosave
+*~
+
+# Qt Creator files
+.qtc_clangd/
+*.creator
+*.creator.user
+*.includes
+*.files
+*.config
+*.cflags
+*.cxxflags
+
+# Qt MOC files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Qt Resource Compiler
+*.qrc.depends
+*.qrc.cpp
+
+# Qt Translation files
+*.qm
+
+# Qt Debug and Release directories
+debug/
+release/
+Debug/
+Release/
+
+# Operating System files
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.dmg
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# IDE and Editor files
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Eclipse
+.metadata
+.workspace
+.project
+.settings/
+.cproject
+.buildpath
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcscheme
+*.hmap
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+# Clang
 *.pch
+*.ipch
+
+# Compilation artifacts
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Debugging files
+*.pdb
+*.ilk
+*.map
+*.exp
+*.gch
+*.tlog
+*.lastbuildstate
+*.idb
 *.sdf
 *.opensdf
-*.tlog
 *.db
-*.pyc
-*.pyo
-*.pyd
-*.coverage
+*.opendb
+
+# Code coverage
 *.gcov
 *.gcda
 *.gcno
-*.cproject
-*.project
-*.settings/
-CMakeLists.txt.user 
+*.coverage
+*.profdata
+*.profraw
+
+# Static analysis
+*.sarif
+*.xml.report
+
+# Package managers
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# Python (if any build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Documentation build
+docs/_build/
+docs/build/
+site/
+
+# Testing
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nyc_output/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.tmp
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+log/
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bz2
+*.xz
+*.tar
+
+# Configuration files with sensitive data
+config.ini
+secrets.ini
+*.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Custom build directories
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.cmake
+conandata.yml
+
+# vcpkg
+vcpkg_installed/
+.vcpkg-root
+
+# Profiling
+*.prof
+*.trace
+
+# Local configuration
+local.properties
+local.config
+
+# Generated files
+generated/
+gen/
+out/
+
+# Benchmark results
+benchmark_results/
+*.benchmark
+
+# Memory debugging
+*.memcheck
+*.valgrind
+
+# Sanitizer outputs
+*.asan
+*.msan
+*.tsan
+*.ubsan
+
+# Binary files that might be accidentally added
+*.bin
+*.dat
+*.raw
+
+# Version control
+.svn/
+.hg/
+.bzr/
+
+# Tags
+tags
+TAGS
+.tags
+.TAGS
+
+# Ctags
+.tags1
+.tags2
+
+# Doxygen
+html/
+latex/
+man/
+
+# Local development files
+.local/
+.cache/
+
+# Editor configurations
+.editorconfig.local
+
+# OS generated files
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
