@@ -792,4 +792,25 @@ private:
     static const QMap<QString, QString> s_graphQLMethods;
     static const QMap<QString, QString> s_messageQueueMethods;
     static const QMap<QString, QString> s_eventSourcingMethods;
-    static const
+        static const QMap<QString, QString> s_eventSourcingMethods;
+    static const QMap<QString, QString> s_cqrsMethods;
+    static const QMap<QString, QString> s_repositoryPatternMethods;
+    static const QMap<QString, QString> s_unitOfWorkMethods;
+    static const QMap<QString, QString> s_domainDrivenDesignMethods;
+    static const QMap<QString, QString> s_testFrameworkMethods;
+    static const QMap<QString, QString> s_mockingFrameworkMethods;
+    static const QMap<QString, QString> s_codeAnalysisMethods;
+    static const QMap<QString, QString> s_debuggingMethods;
+    static const QMap<QString, QString> s_deploymentMethods;
+    static const QMap<QString, QString> s_devOpsMethods;
+    static const QMap<QString, QString> s_containerizationMethods;
+    static const QMap<QString, QString> s_cloudServiceMethods;
+    static const QMap<QString, QString> s_aiIntegrationMethods;
+    static const QMap<QString, QString> s_iotIntegrationMethods;
+    static const QMap<QString, QString> s_mobileBackendMethods;
+    static const QMap<QString, QString> s_crossPlatformMethods;
+
+};
+
+#endif // CSHARPTOPHPTRANSLATOR_H
+
