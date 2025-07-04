@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Qt and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qt5-qmake qtbase5-dev qtbase5-dev-tools qt5-default build-essential cmake
+      - name: Build with CMake
+        run: |
+          cmake .
+          make -j$(nproc)
+      - name: Run tests
+        run: |
+          chmod +x scripts/run_tests.sh
+          ./scripts/run_tests.sh 
